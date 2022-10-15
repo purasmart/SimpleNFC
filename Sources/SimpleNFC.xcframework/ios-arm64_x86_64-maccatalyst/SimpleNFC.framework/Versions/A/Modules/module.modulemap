@@ -1,0 +1,11 @@
+framework module SimpleNFC {
+  umbrella header "SimpleNFC.h"
+
+  export *
+  module * { export * }
+}
+
+module SimpleNFC.Swift {
+    header "SimpleNFC-Swift.h"
+    requires objc
+}
